@@ -1,3 +1,5 @@
+In this project, I have cloned github issues page using react js and material-ui.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
