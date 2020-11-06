@@ -1,0 +1,18 @@
+.issue__status{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    /* justify-content: space-between; */
+}
+
+.issue__status > .open{
+    display: flex;
+
+}
+
+.issue__status > .close{
+    display: flex;
+    color: gray;
+    margin-left: 15px;
+    /* background-color:pink; */
+}

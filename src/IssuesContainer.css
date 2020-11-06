@@ -1,0 +1,18 @@
+.issues__container{
+    /* height: 90vh; */
+    border: 1px solid lightgray;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px ;
+    margin-top: 20px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.info{
+    background-color: #f6f8fa;
+    padding: 10px;
+}
+
+.description > .first{
+    background-color: #f6f8fa;
+}

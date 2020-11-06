@@ -1,0 +1,151 @@
+.infoheader{
+    background-color: #fafbfc;
+    height: 115px;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+    position: relative;
+    /* display: flex; */
+}
+
+.topInfo{
+    display: flex;
+}
+
+.topInfo > .topRight{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    /* background-color: blue; */
+    width: 450px;
+    margin-right: 15px;
+    /* display: flex;
+    align-items: center; */
+    padding:20px 100px;
+}
+
+
+
+    
+.topInfo > .topRight > .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* cursor: pointer; */
+    flex:1;
+    padding-top: 10px;
+    /* background-color:pink; */
+    padding:10px;
+}
+
+.topRight > .buttons > button{
+    height: 30px;
+    padding: 10px;
+    background-color:#fafbfc;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    outline-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.topRight > .buttons > button > .MuiSvgIcon-root{
+    color: gray;
+    padding: 5px;
+}
+
+.topInfo > .topLeft{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 4px;
+    left: 25px;
+    color: #0467d6;
+    padding: 30px;
+}
+
+.topInfo > .topLeft>p{
+    font-size: 22px;
+}
+
+.topInfo > .topLeft>h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.topInfo > .topLeft>.MuiSvgIcon-root{
+    color: gray;
+    margin-right: 20px;
+}
+
+.counts{
+    display: inline-block;
+    background-color:white;
+    padding-bottom: 5px;
+    border: 1px solid lightgray;
+    /* width: 40px; */
+    padding-right: 15px;
+    padding-left: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* padding: 10px; */
+    /* height: 29px; */
+}
+
+.bottomInfo{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    padding: 15px 25px;
+    margin-top: 70px;
+    /* position: relative; */
+    /* bottom: 10px; */
+}
+
+.bottomInfo > .desc{
+    /* background-color:gray; */
+    margin-right: 50px;
+    padding: 9px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 40px; */
+    /* position: absolute; */
+}
+
+.bottomInfo > .desc > .MuiSvgIcon-root{
+    font-size: 18px;
+    color: gray;
+}
+
+.bottomInfo > .desc > .content{
+    margin-left: 10px;
+    color: black;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
+
+
+
+.count{
+    background-color: lightgray;
+    border-radius: 33px;
+    padding: 0px 4px;
+}
+
+.bottomInfo > .active{
+    border-bottom: 3px solid #f9917e;
+    color: black;
+}
+
+.bottomInfo >.active > .MuiSvgIcon-root{
+    color: black;
+    font-size: 20px;
+}

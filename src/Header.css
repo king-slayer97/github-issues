@@ -1,0 +1,36 @@
+.header{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #24292e;
+    color: white;
+    height: 50px;
+    position: sticky;
+    z-index: 100;
+}
+
+.headerLeft > .MuiSvgIcon-root{
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.headerCenter{
+    position: absolute;
+    left: 45%;
+}
+
+.headerCenter > img{
+    
+    /* margin-left:auto;
+    margin-right:auto; */
+    background-color: white;
+    height: 50px;
+    border-radius:33px;
+    cursor: pointer;
+}
+
+.headerRight > .MuiSvgIcon-root{
+    font-size: 26px;
+    cursor: pointer;
+}

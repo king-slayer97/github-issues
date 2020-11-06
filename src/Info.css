@@ -1,0 +1,9 @@
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info > p{
+    margin-left: 20px;
+    cursor: pointer;
+}

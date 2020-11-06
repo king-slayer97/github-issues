@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{useEffect,useState} from 'react';
 import './App.css';
+import Header from './Header';
+import InfoHeader from './InfoHeader';
+import Issues from './Issues';
+import { useSelector } from 'react-redux';
+
 
 function App() {
+  // const [isFetching, setIsFetching] = useState(false);
+  const store = useSelector((store) => { return store });
+  console.log(store);
+
+  // function handleScroll() {
+  //   if (window.innerHeight + document.documentElement.scrollTop !== document.documentElement.offsetHeight) return;
+  //   setIsFetching(true);
+  //   console.log('Fetching');
+  // }
+
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <InfoHeader />
+      <Issues />
     </div>
   );
 }
